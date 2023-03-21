@@ -1,3 +1,9 @@
+* { margin: 0; }
+
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Noto Color Emoji', sans-serif;
     overflow: hidden;
