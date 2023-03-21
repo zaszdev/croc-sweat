@@ -7,6 +7,12 @@ html, body {
 body {
     font-family: 'Noto Color Emoji', sans-serif;
     overflow: hidden;
+
+    text-shadow: -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff, 5px 5px 0 #fff;
+    user-select: none;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
 }
 
 .croc {
@@ -15,7 +21,6 @@ body {
     align-items: center;
     height: 100vh;
 
-    font-size: 50vh;
-    text-shadow: -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff, 5px 5px 0 #fff;
-    user-select: none;
+    font-size: 40vh;
+    text-align: center;
 }
