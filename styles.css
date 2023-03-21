@@ -1,0 +1,15 @@
+body {
+    font-family: 'Noto Color Emoji', sans-serif;
+    overflow: hidden;
+}
+
+.croc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-size: 50vh;
+    text-shadow: -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff, 5px 5px 0 #fff;
+    user-select: none;
+}
